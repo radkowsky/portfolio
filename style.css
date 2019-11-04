@@ -639,6 +639,26 @@ header .intro {
     justify-content: space-between;
 }
 
+@media (min-width:768px) {
+    .wrap, .socials {
+        width: 50%;
+    }
+
+    .socials {
+        margin:0 auto;
+    }
+}
+
+@media (min-width:1024px) {
+    .wrap, .socials {
+        width: 50%;
+    }
+
+    .socials {
+        margin:0 auto;
+    }
+}
+
 /* section contact end */
 
 /* footer start */
@@ -648,7 +668,7 @@ footer {
     color:#fff;
     text-align: center;
     padding: 20px;
-    font-size:24px
-    margin: 20px 0;
+    font-size:24px;
+    /* margin: 20px 0; */
 }
 /* footer end */
